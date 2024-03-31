@@ -1,0 +1,250 @@
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/** Basic HTML Style*/
+html {
+  scroll-behavior: smooth;
+}
+
+/**Design of every div in the body*/
+div {
+  transition: 0.5s ease all;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/** Basic Body Style*/
+body {
+  background: #242423;
+  transition: 0.5s ease all;
+}
+/**Design on the main Page of the website*/
+#main {
+  transition: all 0.5s ease all;
+}
+
+/**Design of the top area of the Navigation Bar*/
+#topArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: 96.76%;
+}
+
+/** Basic Title Design in the Body*/
+#WebsiteTitle {
+  display: flex;
+  font-size: 150%;
+  width: 400px;
+  height: 120px;
+  place-content: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #83bbcc;
+  text-decoration-line: underline;
+  text-decoration-color: #4c934c;
+  transition: 0.5s ease all;
+}
+
+/** The white part of the title*/
+.whitePart {
+  color: #ececec;
+}
+
+/** The red part of the title*/
+.redPart {
+  color: #f34a13;
+}
+
+/** Basic Navigation Bar Design*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #111111;
+  border-radius: 40px;
+}
+
+/**Design of the Search Bar in the Navigation Bar*/
+#searchBar {
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #242423;
+  background-color: #111111;
+  color: #ffffff;
+  outline-color: #f34a13;
+}
+
+/**Design of the icons aside the nav bar*/
+#icon {
+  color: hsl(0, 0%, 93%);
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+/**Design of the icons when hovered aside the nav bar*/
+#icon:hover {
+  color: hsl(0, 0%, 100%);
+  transform: translate(0px, -5px);
+  box-shadow: 0 0 10px #f34a13;
+}
+
+/**Design of every button*/
+button {
+  padding: 8px;
+  border-color: #83bbcc;
+  border-radius: 25%;
+  background-color: transparent;
+  color: #f34a13;
+  transition: 0.5s ease all;
+}
+
+/** Design of Every Button when hovered*/
+button:hover {
+  transform: translate(0px, -5px);
+  box-shadow: 0 0 10px #ececec;
+}
+
+/** Design of the Center part with the main parts*/
+#center {
+  display: flex;
+  min-width: 96.76%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+  color: #ececec;
+  font-size: 30px;
+  background-color: #111111;
+  border-radius: 30px;
+}
+
+/**Design of the Heading above the Products Section*/
+#productsHead {
+  display: flex;
+  color: #f34a13;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  padding-bottom: 30px;
+  background-color: #111111;
+  border-radius: 30px;
+  text-decoration-line: underline;
+  text-decoration-color: #83bbcc;
+}
+
+/**Design of the Products Section*/
+#productsArea {
+  display: flex;
+  grid-gap: 20px;
+  color: #f34a13;
+  background-color: #111111;
+  border-radius: 30px;
+  padding: 10px;
+  height: 690px;
+}
+
+/**Design of every Product Card*/
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  background-color: #111111;
+  border-radius: 30px;
+}
+
+/**Design of Every Product's Title in the Product Card*/
+.product-card h2 {
+  width: 80%;
+  text-decoration-line: underline;
+  text-decoration-color: #83bbcc;
+}
+
+/**Design of every Product's Image in the Product Card*/
+.product-card img {
+  max-width: 80%;
+  height: 50%;
+  border-radius: 40px;
+  padding: 8px;
+}
+
+/**Design of every Product's Price in the Product's Card*/
+#price {
+  font-size: 40px;
+  color: #4c934c;
+}
+
+/**Design of every Product's View Button in the Product's Card*/
+#ViewButton {
+  justify-content: space-between;
+  place-content: center;
+  margin-top: auto;
+}
+
+/**Design of the Scroolpath at the most left side of the website*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/**Design of the Scrooll bar's thumb at the most left side of the website*/
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ececec, #f34a13);
+  border-radius: 20px;
+}
+
+/**Design of the Bottom Part of the website which contains the Description and the Cantact Info..*/
+#bottomPart {
+  display: grid;
+  min-width: 96.76%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  height: auto;
+  color: #ececec;
+  font-size: 30px;
+  background-color: #111111;
+  border-radius: 30px;
+}
+
+/**Design of the Description's heading*/
+.description h2 {
+  font-size: 40px;
+  color: #f34a13;
+  text-decoration-line: underline;
+  text-decoration-color: #83bbcc;
+}
+
+/**Design of the Description's main part*/
+.description p {
+  font-size: 20px;
+}
+
+/**Design of the Contact Info Heading*/
+#Contact-Info h2 {
+  font-size: 40px;
+  color: #f34a13;
+  text-decoration-line: underline;
+  text-decoration-color: #83bbcc;
+}
+
+/**Design of the Contact Info paragraph*/
+#Contact-Info p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 22px;
+}
